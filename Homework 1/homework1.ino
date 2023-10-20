@@ -10,10 +10,10 @@ int redValue = 0;
 int greenValue = 0;
 int blueValue = 0;
 
-const int maxPotValue = 1023;
-const int maxValue = 255;
-const int minPotValue = 0;
-const int minValue = 0;
+const float maxPotValue = 1023.0;
+const float maxValue = 255.0;
+const float minPotValue = 0.0;
+const float minValue = 0.0;
 
 void setup() {
   pinMode(redPotPin, INPUT);
