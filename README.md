@@ -2,14 +2,14 @@
 
 Hello! This repository is dedicated to my Introduction to Robotics course. Over the semester, I'll be uploading the assignments and projects I've been working on.
 
-# Homework 1
+## Homework 1
 <details>
   <summary>See details</summary>
 
   ### Create this repository.
 </details>
 
-# Homework 2
+## Homework 2
 <details>
   <summary>See details</summary>
 
