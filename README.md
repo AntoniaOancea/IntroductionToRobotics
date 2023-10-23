@@ -25,10 +25,10 @@ Hello! This repository is dedicated to my Introduction to Robotics course. Over 
       Specifically,you  need  to  read  the  potentiometer’s  value  with  Arduino  and  then  write  a mapped value to the LED pins.
 
   ### Setup
-  ![](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%201/setup-1.jpg)
+  ![](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%202/setup-2.jpg)
 
   ### [Video](https://youtu.be/AsdBe3tzsQs)
 
-  ### [Code](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%201/homework1.ino)
+  ### [Code](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%202/homework_2/homework_2.ino)
 
   </details>
