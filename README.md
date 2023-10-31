@@ -55,10 +55,10 @@ Hello! This repository is dedicated to my Introduction to Robotics course. Over 
       • Buzzer : The buzzer should sound briefly during the following scenarios:
           – Elevator arriving at the desired floor (something resembling a ”cling”).
           – Elevator doors closing and movement (pro tip: split them into 2 different sounds)
-      • State Change & Timers: If the elevator is already at the desired floor, pressing the button for that floor should have no effect. 
-      Otherwise, after a button press, the elevator should ”wait for the doors to close” and then ”move” to the corresponding floor. 
-      If the elevator is in movement, it should either do nothing or it should stack its decision (get to the first programmed floor, 
-      open the doors, wait, close them and then go to the next desired floor).
+      • State Change & Timers: If the elevator is already at the desired floor, pressing the button for that floor should have 
+      no effect. Otherwise, after a button press, the elevator should ”wait for the doors to close” and then ”move” to the 
+      corresponding floor. If the elevator is in movement, it should either do nothing or it should stack its decision 
+      (get to the first programmed floor, open the doors, wait, close them and then go to the next desired floor).
       • Debounce: for the buttons to avoid unintentional repeated button presses
 
   ### Bonus:
