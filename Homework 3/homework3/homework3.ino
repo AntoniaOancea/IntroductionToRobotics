@@ -109,8 +109,8 @@ void loop() {
       }
   }
   
-  if(millis() - call > closeDoor){
-    if(millis() - lastTimeMove > moveDelay || !lastTimeMove)
+  if(millis() - call > closeDoor){ // delay pentru inchidere usa
+    if(millis() - lastTimeMove > moveDelay || !lastTimeMove) // delay pentru timpul de trecere de la un etaj la altul
     {
       ledStateLevels[currentLevel] = ledON;
     }
@@ -141,15 +141,17 @@ void loop() {
             toneDurationOpen = millis();
             tone(buzzPin, NOTE_DS8, closeDoor);
           }
+          
           lastTimeMove = 0;
-          if(millis() - toneDurationOpen > closeDoor)
+          if(millis() - toneDurationOpen > closeDoor) //
           {
             toneDurationClose = millis();
             toneDurationOpen = 0;
-            if (uxQueueMessagesWaiting(calls) != 0 && xQueueReceive(calls, &requestedLevel2, portMAX_DELAY) == pdPASS) 
+            
+            if (uxQueueMessagesWaiting(calls) != 0 && xQueueReceive(calls, &requestedLevel2, portMAX_DELAY) == pdPASS) // luam din coada urmatorul nivel cerut(daca exista)
                 {
                   Serial.print("Popped data from the queue: ");
-                  if(requestedLevel != requestedLevel2)
+                  if(requestedLevel != requestedLevel2) //daca din coada preluam etajul curent trecem peste
                   {
                     requestedLevel = requestedLevel2;
                     tone(buzzPin, NOTE_DS2, closeDoor);
@@ -158,6 +160,7 @@ void loop() {
             else
               requestedLevel = -1;
           }
+          
           call = millis();
           Serial.println(requestedLevel);
           buttonStateMove = ledOFF;
