@@ -22,7 +22,7 @@ Hello! This repository is dedicated to my Introduction to Robotics course. Over 
   ### Task
       Use a separate potentiometer for controlling each color of the RGB LED:Red,Green, andBlue.  
       This control must leverage digital electronics.  
-      Specifically,you  need  to  read  the  potentiometer’s  value  with  Arduino  and  then  write  a mapped value to the LED pins.
+      Specifically,I  need  to  read  the  potentiometer’s  value  with  Arduino  and  then  write  a mapped value to the LED pins.
 
   ### Setup
   ![](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%202/setup-2.jpg)
@@ -59,7 +59,7 @@ Hello! This repository is dedicated to my Introduction to Robotics course. Over 
       a button press, the elevator should ”wait for the doors to close” and then ”move” to the corresponding floor. If the elevator is in movement, it
       should either do nothing or it should stack its decision (get to the first programmed floor, open the doors, wait, close them and then go to the
       next desired floor).
-      • Debounce: Remember to implement debounce for the buttons to avoid unintentional repeated button presses
+      • Debounce: for the buttons to avoid unintentional repeated button presses
 
   ### Bonus:
   ##### Buzzer
