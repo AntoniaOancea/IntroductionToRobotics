@@ -73,3 +73,33 @@ Hello! This repository is dedicated to my Introduction to Robotics course. Over 
   ### [Code](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%203/homework3/homework3.ino)
 
   </details>
+
+  ## Homework 4
+<details>
+  <summary>See details</summary>
+
+  ### This assignment involves using a joystick to control the position of the segment and set on/off the leds on the display.
+  ### Components: 
+      • 7-segment display
+      • Joystick
+      • Resistors and wires as needed
+
+  ### Task
+      • the initial position should be on the DP
+      • the current position should blinck
+      • the joystick control the movement from one segment to another
+      • short press on the button should change the segment state from ON to OFF or from OFF to ON
+      • long pressing the button resets the entire display by turning all the segments OFF and moving the current position to DP
+
+  ### Table for corresponding movement
+  ![](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%204/image.png)
+
+      
+  ### Setup
+  ![](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%204/homework4.jpg)
+
+  ### [Video](https://www.youtube.com/watch?v=t3oWBuS-0tk)
+
+  ### [Code](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%204/homework4/homework4.ino)
+
+  </details>
