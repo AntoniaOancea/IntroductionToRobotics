@@ -103,3 +103,28 @@ Hello! This repository is dedicated to my Introduction to Robotics course. Over 
   ### [Code](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%204/homework4/homework4.ino)
 
   </details>
+
+  ## Homework 5
+<details>
+  <summary>See details</summary>
+
+  ### This assignment involves using a 4 digit 7 segment display to implement a stopwatcher timer with a functionality for saving laps.
+  ### Components: 
+      • 4 digit 7-segment display
+      • 3 buttons
+      • Resistors and wires as needed
+
+  ### Task
+      • Implement 3 buttons: LAP, START/STOP, RESET 
+      • Start with "000.0". Press START button  => the timer will start.
+      • LAP button will save the current time if timer is not in pause mode, else it will display saved laps.
+      • If the timer is in PAUSE mode, Reset button will restart timer showing "000.0".
+ 
+  ### Setup
+  ![](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%205/homework5.jpg)
+
+  ### [Video](https://www.youtube.com/watch?v=X44U0F4q8nE)
+
+  ### [Code](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%205/homework5/homework5.ino)
+
+  </details>
