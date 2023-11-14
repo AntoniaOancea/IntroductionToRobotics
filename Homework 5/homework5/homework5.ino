@@ -112,7 +112,7 @@ void loop() {
       //Serial.println(laps[currentLapShow]);
       lapDebounce = millis();
     }
-    if(currentLapShow == numberOfLaps-1){
+    if(currentLapShow == numberOfLaps){
       lapShow = false;
       currentLapShow = -1;
     }
