@@ -108,7 +108,7 @@ Hello! This repository is dedicated to my Introduction to Robotics course. Over 
 <details>
   <summary>See details</summary>
 
-  ### This assignment involves using a 4 digit 7 segment display to implement a stopwatcher timer with a functionality for saving laps.
+  ### This assignment involves using a 4 digits 7 segment display to implement a stopwatcher timer with a functionality for saving laps.
   ### Components: 
       • 4 digit 7-segment display
       • 3 buttons
@@ -128,3 +128,47 @@ Hello! This repository is dedicated to my Introduction to Robotics course. Over 
   ### [Code](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%205/homework5/homework5.ino)
 
   </details>
+
+   ## Homework 6
+<details>
+  <summary>See details</summary>
+
+  ### This assignment involves using Serial Monitor as an Interctive Menu for controlling Sensor Readings and LED Colors.
+  ### Components: 
+      • Ultrasonic Sensor (HC-SR04)
+      • LDR (Light-Dependent Resistor)
+      • RGB LED
+      • 3 buttons
+      • Resistors and wires as needed
+
+  ### Task
+      Interactive Menu in Serial Monitor with the following options:
+        1.Sensor Settings
+          1.1. Sensor Sampling Interval => ask for a value between 1 and 10
+          1.2. Ultrasonic Alert Treshold => ask for a value
+          1.3. LDR Alert Treshold => ask for a value
+        2.Reset Logger Data
+          2.1. Yes => delete all data from EEPROM
+          2.2. No => return to principal menu without any modification
+        3.System Status
+          3.1.Current Sensor Readings => show current sensor values
+          3.2.Current Sensor Settings => show current sensor settings 
+          3.3.Display Logged Data => show data from EEPROM
+          3.4.Back => back to principal menu
+        4.RGB LED Control
+          4.1. Manual Color Control => set led color
+            4.1.1.Red
+            4.1.2.Green
+            4.1.3.Blue
+            4.1.4.Back
+          4.2.LED: Toggle Automatic ON/OFF => if it's ON , LED will be green
+          4.3.Back 
+  ### Setup
+  ![](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%206/homework6.jpg)
+
+  ### [Video](https://www.youtube.com/watch?v=eQnhL6g1S2o)
+
+  ### [Code](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%206/homework6/homework6.ino)
+
+  </details>
+
