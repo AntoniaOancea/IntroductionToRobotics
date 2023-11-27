@@ -172,3 +172,37 @@ Hello! This repository is dedicated to my Introduction to Robotics course. Over 
 
   </details>
 
+  ## Homework 7
+<details>
+  <summary>See details</summary>
+
+  ### This assignment involves using the 8x8 matrix to create a game. I made a game similar to bomberman.
+  ### Components: 
+      • 8x8 LED matrix
+      • joystick
+      • MAX7219
+      • 2 buttons
+      • Resistors and wires as needed
+
+  ### Task
+      The game should contain 3 types of object. I chose to use walls, player and bomb.
+      The walls are the lights that are always on. The player and the bomb should blink, the bomb faster than the player.
+      The walls and the player are randomly generated. The bomb is set by the player to break down the walls.
+      The player should run away from the bomb's range after placing it on the map. 
+      The bomb will explode 5 seconds after it is placed and will destroy the first wall on each direction (up, down, left, right).
+      If the player is in range of the bomb when it explodes, he will lose the game.
+      If the player manages to break down all the walls, he wins.
+      The player sets the bomb and moves on the map with the joystick.
+  
+    Bonus:    
+      I added 3 animations depending on the stage of the game. A smiley face before the game starts, a sad face if the player lost and a crown if he won.
+      I used 2 buttons: start/pause and reset.
+  ### Setup
+  ![](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%207/homework7.jpg)
+
+  ### [Video](https://youtu.be/XaEDOVq2WG4)
+
+  ### [Code](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%207/homework7/homework7.ino)
+
+  </details>
+
