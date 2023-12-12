@@ -206,3 +206,38 @@ Hello! This repository is dedicated to my Introduction to Robotics course. Over 
 
   </details>
 
+
+  ## Homework 8
+<details>
+  <summary>See details</summary>
+
+  ### This assignment involves using the LCD Display to create a menu for the matrix game.
+  ### Components: 
+      • 8x8 LED matrix
+      • LCD
+      • potentiometer
+      • joystick
+      • MAX7219
+      • 1 button
+      • Resistors and wires as needed
+
+  ### Task
+      1. Intro Message : 
+      2. Menu:
+        1.1. Start Game
+        1.2. Settings
+          1.2.1. LCD Brightness
+          1.2.1. Matrix Brightness
+        1.3. About
+      3.End Message (when the player finish the game will receive a message)
+  ### Setup
+  ![](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%208/homework8-setup.jpg)
+
+  ### [Video](https://youtu.be/BGwpUGSWhT4)
+
+  ### [Code](https://github.com/AntoniaOancea/IntroductionToRobotics/blob/main/Homework%208/homework8/homework8.ino)
+
+  </details>
+
+
+
